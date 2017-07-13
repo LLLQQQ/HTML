@@ -1,0 +1,36 @@
+body {
+    background-color: #eaf3da;
+}
+
+p {
+    color: maroon;
+}
+
+a {
+    color: green;
+}
+
+h1,
+h2 {
+    font-family: sans-serif;
+    color: goldenrod;
+}
+
+h1 {
+    border-bottom: 1px solid black;
+}
+
+dt {
+    text-decoration: underline;
+}
+
+p.greentea {
+    color: green;
+}
+
+
+/*
+.greentea {
+    color: green;
+}
+*/
