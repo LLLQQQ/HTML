@@ -1,5 +1,8 @@
 body {
     background-color: #eaf3da;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6em;
 }
 
 p {
@@ -12,20 +15,48 @@ a {
 
 h1,
 h2 {
-    font-family: sans-serif;
+    /*font-family: sans-serif;*/
     color: goldenrod;
+    border-bottom: thin dotted #888888;
 }
 
 h1 {
     border-bottom: 1px solid black;
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 1.3em;
 }
 
 dt {
-    text-decoration: underline;
+    text-decoration: line-through;
+    font-style: italic;
 }
 
 p.greentea {
     color: green;
+}
+
+.guarantee {
+    line-height: 1.9em;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #444444;
+    border-color: black;
+    border-width: 3px;
+    border-style: dashed;
+    border-left-style: double;
+    border-top-color: white;
+    /*double need unless 3px*/
+    background-color: #a7cece;
+    padding: 25px;
+    padding-left: 80px;
+    margin: 30px;
+    margin-right: 250px;
+    background-image: url(img/djy.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
 }
 
 
