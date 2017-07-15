@@ -59,6 +59,18 @@ p.greentea {
     background-position: top left;
 }
 
+#footer {
+    color: red;
+    border-top-color: black;
+    border-left-color: green;
+    border-right-color: yellow;
+    border-bottom-color: gray;
+    border-style: double;
+    border-width: 7px;
+    margin: 30px;
+    margin-right: 250px;
+}
+
 
 /*
 .greentea {
