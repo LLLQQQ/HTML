@@ -2,7 +2,7 @@
     border-width: thin;
     border-style: solid;
     border-color: #007e7e;
-    width: 800px;
+    width: 500px;
     padding-right: 80px;
     padding-left: 80px;
     padding-bottom: 80px;
@@ -31,8 +31,8 @@
 }
 
 img {
-    width: 600px;
-    height: 340px;
+    width: 200px;
+    height: 113px;
 }
 
 a:link {
@@ -48,10 +48,18 @@ a:hover {
 }
 
 #p9 {
-    width: 1800px;
+    width: 1500px;
     height: 700px;
 }
 
 #bq1 {
     float: left;
+}
+
+#main {
+    background: #efe5d0;
+    font-size: 105%;
+    padding: 15px;
+    margin: 10px;
+    margin: 0px 740px 10px 10px;
 }
