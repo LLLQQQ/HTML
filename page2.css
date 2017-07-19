@@ -7,6 +7,7 @@
     padding-left: 80px;
     padding-bottom: 80px;
     margin-left: 80px;
+    margin-right: 10px;
     text-align: center;
     background-image: url(page2img/bgi.png);
     background-repeat: repeat-y;
@@ -48,7 +49,7 @@ a:hover {
 }
 
 #p9 {
-    width: 1500px;
+    width: 1200px;
     height: 700px;
 }
 
@@ -62,4 +63,68 @@ a:hover {
     padding: 15px;
     margin: 10px;
     margin: 0px 740px 10px 10px;
+}
+
+#title2 {
+    border-bottom: 3px;
+    border-bottom-style: double;
+    border-bottom-color: goldenrod;
+}
+
+#title {
+    border: 3px double blue;
+}
+
+#main {
+    border: 3px double gray;
+}
+
+#footer2 {
+    border: 3px double blueviolet;
+    clear: right;
+}
+
+#floatright2 {
+    border: 3px solid black;
+    position: absolute;
+    top: 900px;
+    left: 200px;
+    right: 200px;
+    height: 400px;
+    /*the son p add absolute then 0px height*/
+    /*set the width of floatright2 to the whole page*/
+}
+
+#floatright2 p2 {
+    margin-left: auto;
+    /*here i have some question, margin and its div, the p's top and div:deal,user agent sheetstyle*/
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 3px dotted blue;
+    width: 150px;
+}
+
+#floatright2 p {
+    position: absolute;
+    /*relative needs father's absolute?*/
+    top: 30px;
+    left: 30px;
+    border: 3px dotted blue;
+    width: 150px;
+}
+
+#allcontent {
+    width: 1300px;
+    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    border: 3px dotted black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titleimg {
+    text-align: center;
 }
