@@ -156,3 +156,13 @@ caption {
     font-style: italic;
     padding-top: 8px;
 }
+
+table table th {
+    /*if there has many ttt then how to deal?*/
+    background-color: white;
+}
+
+li {
+    list-style-type: circle;
+    list-style-position: inside;
+}
