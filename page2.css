@@ -128,3 +128,31 @@ a:hover {
 #titleimg {
     text-align: center;
 }
+
+table {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: thin solid black;
+    caption-side: bottom;
+    /*border-collapse: collapse;*/
+    /*border-spacing: 10px 30px;*/
+}
+
+td,
+th {
+    border: thin dotted gray;
+    padding: 5px;
+}
+
+th {
+    background-color: #cc6600;
+}
+
+.cellcolor {
+    background-color: #fcba7a;
+}
+
+caption {
+    font-style: italic;
+    padding-top: 8px;
+}
