@@ -180,6 +180,67 @@
             <li>digital camera</li>
             <li>a protein bar</li>
         </ul>
+        <form action="http://www.starbuzzcoffee.com/processorder.php" method="POST">
+            <table>
+                <tr>
+                    <th>Choose your beans:</th>
+                    <td>
+                        <select name="beans">
+                            <option value="House Blend">House Blend</option>
+                            <option value="Bolivia">Shade Grown</option>
+                            <option value="Guatemala">Organic</option>
+                            <option value="Kenya">Kenya</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>type:</th>
+                    <td>
+                        <input type="radio" name="beantype" value="whole" /> whole bean
+                        <br/>
+                        <input type="radio" name="beantype" value="ground" checked="checked" /> Ground
+                    </td>
+                </tr>
+                <tr>
+                    <th>Extras:</th>
+                    <td>
+                        <input type="checkbox" name="extras[]" value="giftwrap" /> Gift wrap
+                        <br/>
+                        <input type="checkbox" name="extras[]" value="catalog" checked="checked" /> Include Catalog with
+                        order
+                    </td>
+                </tr>
+                <tr>
+                    <th>Ship to:</th>
+                    <td>
+                        <table>
+                            <tr>
+                                <td>Name:</td>
+                                <td>
+                                    <input type="text" name="name" value="" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>address:</td>
+                                <td>
+                                    <input type="text" name="address" value="" />
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Customer Comments:</th>
+                    <td>
+                        <textarea name="comments" cols="48" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td><input type="submit" value="Order Now1" /></td>
+                </tr>
+            </table>
+        </form>
         <blockquote>
             <p>
                 据说这是一个块引用1，可是它到底有什么用呢？<br /> 到底有什么用呢？到底有什么用呢？
