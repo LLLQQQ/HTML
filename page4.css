@@ -1,0 +1,15 @@
+#root0{
+    width: 100%;
+}
+#controlPad{
+    position: relative;
+}
+#root1{
+    position: relative;
+}
+.play{
+    width: 10px;
+    height: 10px;
+    background-color: #000000;
+    position: absolute;
+}
