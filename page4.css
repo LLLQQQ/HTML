@@ -13,3 +13,12 @@
     background-color: #000000;
     position: absolute;
 }
+
+.picTest{
+    width: 200px;
+    height: 100px;
+    background: red;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+}

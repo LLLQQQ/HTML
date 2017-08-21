@@ -4,19 +4,19 @@ window.onload = jsStart();
 function jsStart() {
     elem = document.getElementById("root1");
     var controlPad = document.getElementById("controlPad");
-    controlPad.getElementsByTagName("p")[0].onclick = function () {
+    controlPad.getElementsByTagName("button")[0].onclick = function () {
         goToUp();
         return true;
     }
-    controlPad.getElementsByTagName("p")[1].onclick = function () {
+    controlPad.getElementsByTagName("button")[1].onclick = function () {
         goToDown();
         return true;
     }
-    controlPad.getElementsByTagName("p")[2].onclick = function () {
+    controlPad.getElementsByTagName("button")[2].onclick = function () {
         goToLeft();
         return true;
     }
-    controlPad.getElementsByTagName("p")[3].onclick = function () {
+    controlPad.getElementsByTagName("button")[3].onclick = function () {
         goToRight();
         return true;
     }
